@@ -26,7 +26,7 @@ function setup() {
 	rope1=new Rope(bob1,ground1)
 
 ground1=new Ground(400,60,400,15);
-//rope1=new Rope(ground1,bob1)
+rope1=new Rope(ground1,bob1)
 
 	Engine.run(engine);
   
